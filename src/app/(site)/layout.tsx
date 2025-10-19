@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${roboto.variable} ${robotoMono.variable} antialiased font-sans`}
+        className={`${roboto.variable} ${robotoMono.variable} antialiased font-sans `}
       >
         <Navbar />
         {children}
